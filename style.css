@@ -1,4 +1,5 @@
 
+/* FIRST */
 * {
     box-sizing: border-box;
     margin: 0; 
@@ -56,4 +57,52 @@ ul {
 
 li {
     margin: 10px;
+}
+
+
+
+/* SECOND */
+
+.second-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 30px 30px 0px 30px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.sub-header {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button button {
+    background-color: #3882f6;
+    padding: 8px 32px
+}
+
+button {
+    border: 0;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 10px 0px 0px 0px;
+}
+
+.image {
+    display: flex;
+    flex: 1.9;
+    padding: 30px 70px 30px 0px;
+    justify-content: flex-end;
 }
