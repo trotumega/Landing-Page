@@ -168,3 +168,66 @@ button {
     justify-content: flex-end;
     padding-top: 10px;
 }
+
+
+/* FIVE */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    background:#3882f6;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    margin: 20px;
+    padding: 40px 200px;
+}
+
+.call {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-family: "light italic";
+}
+
+.sub-call {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 1000px;
+}
+
+.super {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+button.super-button {
+    background: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    font-weight: bold;
+    border: 2px solid black;
+    border-color: #f9faf8;
+    align-items: center;
+    padding: 0px 40px;
+    margin-left: 100px;
+}
+
+/* LAST PART */
+
+.footer {
+    display: flex;
+    flex: 1;
+    background: #1f2937;
+    color: #f9faf8;
+    font-weight: bolder;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
