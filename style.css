@@ -8,6 +8,8 @@
 
 body {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 ul {
@@ -105,4 +107,64 @@ button {
     flex: 1.9;
     padding: 30px 70px 30px 0px;
     justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+
+/* PART THREE */
+
+.information {
+    flex: 1;
+}
+
+.info-header {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
+    margin: 70px 0px 30px 0px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.aditional-big {
+    display: flex;
+    justify-content: center;
+}
+
+.aditional {
+    max-width: 200px;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 100px;
+}
+
+
+/* Fourth */
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.text-quote {
+    flex: 1;
+    font-size: 36px;
+    font-family: "light italic";
+    color: #1f2937;
+    padding: 110px;
+}
+
+.author {
+    display: flex;
+    font-size: 18px;
+    font-weight: bolder;
+    justify-content: flex-end;
+    padding-top: 10px;
 }
